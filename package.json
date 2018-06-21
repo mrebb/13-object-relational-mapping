@@ -1,0 +1,38 @@
+{
+  "name": "13-object-relational-mapping",
+  "version": "1.0.0",
+  "description": "![CF](https://camo.githubusercontent.com/70edab54bba80edb7493cad3135e9606781cbb6b/687474703a2f2f692e696d6775722e636f6d2f377635415363382e706e67) 13: Single Resource Mongo and Express API ===",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon index.js",
+    "test-watch": "jest --watchAll",
+    "test": "jest",
+    "lint": "eslint **/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrebb/13-object-relational-mapping.git"
+  },
+  "author": "Madhu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrebb/13-object-relational-mapping/issues"
+  },
+  "dependencies": {
+    "babel-env": "^2.4.1",
+    "babel-eslint": "^8.2.3",
+    "babel-register": "^6.26.0",
+    "cors": "^2.8.4",
+    "dotenv": "^6.0.0",
+    "eslint": "^4.19.1",
+    "express": "^4.16.3",
+    "jest": "^23.1.0",
+    "mongoose": "^5.1.6",
+    "morgan": "^1.9.0",
+    "require-dir": "^1.0.0",
+    "superagent": "^3.8.3",
+    "uuid": "^3.2.1"
+  },
+  "homepage": "https://github.com/mrebb/13-object-relational-mapping#readme"
+}
