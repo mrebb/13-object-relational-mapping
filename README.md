@@ -5,7 +5,7 @@
 
 ## TRAVIS: https://travis-ci.com/mrebb/13-object-relational-mapping
 
-## HEROKU: https://express-middleware.herokuapp.com 
+## HEROKU: https://mongodb-lab13.herokuapp.com
 
 ## Single Resource Mongo and Express API
 
