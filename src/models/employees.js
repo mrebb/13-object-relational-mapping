@@ -1,6 +1,7 @@
 'use strict';
 import mongoose from 'mongoose';
-mongoose.connect('mongodb://localhost/');
+require('dotenv').config();
+mongoose.connect(process.env.MONGODB_URI);
 const employeeSchema = mongoose.Schema({
   id: {type:String, required: true},
   name: {type: String, required: true},
